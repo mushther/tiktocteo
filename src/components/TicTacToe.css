@@ -1,0 +1,55 @@
+.board-row {
+    display: flex;
+    justify-content: center;
+}
+
+.square {
+    color: 'black';
+    background: white;
+    border: 2px solid black;
+    width: 60px;
+    height: 60px;
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 60px;
+    margin-right: -2px;
+    margin-top: -2px;
+    cursor: pointer;
+}
+
+.square:hover {
+    background: #e6e6e6;
+}
+
+/* Styling for the status and reset button */
+.status {
+    margin-top: 20px;
+    font-size: 24px;
+}
+
+button {
+    font-size: 16px;
+    padding: 10px;
+    margin-top: 10px;
+    background-color: #4CAF50;
+    color: rgb(22, 21, 21);
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    margin-right: 10px;
+}
+
+button:hover {
+    background-color: #3e8e41;
+}
+
+button:disabled {
+    background-color: grey;
+    cursor: not-allowed;
+}
+
+button:disabled:hover {
+    background-color: grey;
+    cursor: not-allowed;
+}
